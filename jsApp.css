@@ -1,0 +1,202 @@
+.card
+{
+    border: 1px solid black;
+    border-radius: 10px;
+    width: 93px;
+    height: 122px;
+    float:left;
+    background-color: white;
+    padding: 3px;
+    margin: 4px;
+    
+}
+
+.card .value
+{
+    font-size: 25px;
+    font-family: sans-serif;
+}
+.card .diamonds
+{
+    padding-left: 20px;
+    background-image: url(diamond.png);
+    height: 95px;
+    width: 90px;
+    background-repeat: no-repeat;
+    /*margin-left: 10px;*/
+    background-position: center;
+    
+}
+
+.card .hearts
+{
+    background-image: url(heart.png);
+     height: 93px;
+     width: 90px;
+     background-repeat: no-repeat;
+    background-position: center;
+     /*margin-bottom: 15px;
+    margin-right: 25px;*/
+}
+
+.card .spades
+{
+    background-image: url(spade.png);
+    background-position: center;
+    height: 93px;
+    width: 90px;
+     background-repeat: no-repeat;
+}
+
+.card .clubs
+{
+    background-image: url(club_1.png);
+    background-position: center;
+    height: 93px;
+    width: 90px;
+     background-repeat: no-repeat;
+    
+}
+
+.holder_diamonds
+{
+    border: 3px solid black;
+    border-radius: 10px;
+    width: 93px;
+    height: 122px;
+    float:left;
+    background-color: white;
+    padding: 3px;
+    margin: 8px;
+    background-image: url(diamond.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    
+    
+}
+
+/*.holder_diamonds .h_diamonds
+{
+   background-image: url(diamond.png);
+    height: 95px;
+    width: 90px;
+    background-repeat: no-repeat;
+    padding-left: 8px;
+    padding-top: 8px; 
+}*/
+
+
+.holder_hearts
+{
+    border: 3px solid black;
+    border-radius: 10px;
+    width: 93px;
+    height: 122px;
+    float:left;
+    background-color: white;
+    padding: 3px;
+    margin: 8px;
+    background-image: url(heart.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    
+    
+}
+
+.holder_spades
+{
+    border: 3px solid black;
+    border-radius: 10px;
+    width: 93px;
+    height: 122px;
+    float:left;
+    background-color: white;
+    padding: 3px;
+    margin: 8px;
+    background-image: url(spade.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    
+    
+}
+
+.holder_clubs
+{
+    border: 3px solid black;
+    border-radius: 10px;
+    width: 93px;
+    height: 122px;
+    float:left;
+    background-color: white;
+    padding: 3px;
+    margin: 8px;
+    background-image: url(club_1.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    
+    
+}
+
+.place
+{
+    position: fixed;
+    bottom: 0;
+    
+    
+}
+
+/*.wrapper {
+    text-align: center;*/
+
+.button{
+    background-color: royalblue;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    top: 50%;
+    left: 50%;
+    position: relative;
+    /*float: right;*/
+    visibility: hidden;
+}
+
+
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+li {
+    float: left;
+    border-right:1px solid #bbb;
+}
+
+li:last-child {
+    border-right: none;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover:not(.active) {
+    background-color: #111;
+}
+
+.active {
+    background-color: #4CAF50;
+}

@@ -1,0 +1,63 @@
+<!DOCTYPe html>
+<html lan="en">
+    <head>
+    
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="description" content="">
+        <meta name="author" content="">
+
+        <title>Deck of Cards</title>
+
+        <!-- Bootstrap Core CSS -->
+        <link href="css/bootstrap.min.css" rel="stylesheet">
+
+        <!-- Custom CSS -->
+        <link href="jsApp.css" rel="stylesheet">
+
+        <!-- Fonts -->
+        <link href="https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800" rel="stylesheet" type="text/css">
+        <link href="https://fonts.googleapis.com/css?family=Josefin+Slab:100,300,400,600,700,100italic,300italic,400italic,600italic,700italic" rel="stylesheet" type="text/css">
+        
+        
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  
+  <script type="text/javascript" src="http://code.jquery.com/jquery.min.js"></script>
+        
+        <script src="jsApp.js"></script>
+
+    </head>
+    
+    <body>
+        
+        <div>
+        <ul>
+            <li><a href="login.html">Log In</a></li>
+            <li><a href="login.html">Sign Up</a></li>
+            <li style="float:right"><a href="#">CARD GAME</a></li>
+        </ul>
+        </div>
+        
+        <div id="deck"></div>
+        
+        <div class="place">
+        <div class="holder_diamonds" ondrop="drop(event)" ondragover="allowDrop(event)">
+        </div>
+        
+        <div class="holder_hearts" ondrop="drop(event)" ondragover="allowDrop(event)">
+        </div>
+        
+        <div class="holder_spades" ondrop="drop(event)" ondragover="allowDrop(event)">
+        </div>
+        
+        <div class="holder_clubs"ondrop="drop(event)" ondragover="allowDrop(event)">
+            
+        </div>
+         <button type="button" class="button" id="bt1">Restart</button>
+        </div>
+        
+        
+    </body>
+    
+</html>
